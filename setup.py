@@ -57,8 +57,8 @@ setup(
     namespace_packages = ['scikits'],
     zip_safe = False,
     package_data = {
-        # If any package contains *.pxd files, include them:
-        '': ['*.pxd'],
+        # include *.pxd files, sundials_config.pxi
+        '': ['*.pxd','sundials_config.pxi'],
     },
     classifiers = CLASSIFIERS,
     **additional_kwargs
